@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/Bootstrap/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/jogoo-road.css">
+    <script src="https://kit.fontawesome.com/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/636321f964.js" crossorigin="anonymous"></script>
+    <title>Jogoo road</title>
+</head>
+
+<body>
+    <div class="">
+        <section class="location-description">
+            <nav>
+                <label class="logo">Roommatefinder</label>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#book">Book</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <main class="the-about" id="about">
+                <div class="about-header">
+                    <h1>ROOMMATE FINDER JOGOO ROAD</h1>
+                    <ul>
+                        <li><a href="">Parklands</a></li>
+                        <li><a href="">Mombasa Road</a></li>
+                        <li><a href="">Kilimani</a></li>
+                        <li><a href="">Ruaraka</a></li>
+                    </ul>
+                </div>
+                <div class="about-details">
+                    <h3><strong> At Roommate Finder Jogoo Road we offer cosy rooms that brings a <br>sense of home away
+                            from home, safety, cleanliness
+                            is prioritized <br> and your student life is gauranteed to be smooth </strong></h3>
+
+                    <p>The <strong style="color: orangered">Ammenities</strong> in the area include: Gym, fully
+                        furnished rooms,<br> WiFi, chillout zones
+                        Back up generator, multiple room types.</p>
+                    <p>The <strong style="color: orangered">prices starting from Ksh 15000 </strong>
+
+                </div>
+            </main>
+        </section>
+        <section class="order-section" id="book">
+            <div class="book-button">
+                <button type="submit" id="submit">BOOK A ROOM</button>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div><img src="images/1.jfif" alt="" height="400px" width="450px"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img src="images/11.jfif" alt="" height="400px" width="450px"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img src="images/10.jfif" alt="" height="400px" width="450px"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img src="images/12.jfif" alt="" height="400px" width="450px"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img src="images/2.jfif" alt="" height="400px" width="450px"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img src="images/5.jfif" alt="" height="400px" width="450px"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img src="images/7.jfif" alt="" height="400px" width="450px"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img src="images/4.jfif" alt="" height="400px" width="450px"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img src="images/6.jfif" alt="" height="400px" width="400px"></div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="contact-details" id="contact">
+            <h1>CONTACTS</h1>
+            <p> Please call us for free on <span style="color: orangered">0100 333 222</span> to know about
+                roomavailability, visit us or even send a mail</p>
+            <div class="contact-form">
+                <!---grid section-->
+                <div class="theIframe">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85191.64996617229!2d36.79298384793651!3d-1.261216734764437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1590039053863!5m2!1sen!2ske"
+                        width="600" height="400" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <!---second grid-->
+                <div>
+                    <i class="fa fa-map-marker-alt"></i><span class="form-info">Nairobi, KENYA</span><br>
+                    <i class="fa fa-phone"></i><span class="form-info">0100 333 222</span><br>
+                    <i class="fa fa-envelope"></i><span class="form-info">roommatefinder@gmail.com</span><br>
+                </div>
+        </section>
+        <footer>
+            <p>&copy; Copyrights Roommatefinder 2020</p>
+        </footer>
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src='js/script.js'></script>
+    <script src="css/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
